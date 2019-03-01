@@ -1,10 +1,16 @@
-a=int(input("por favor digite el numero"))
-if a==0:
-       print("el numero es 0".format(a))
-else:
-       if a%2==0:
-                print("el numero es par".format(a))
-       else:
-                print("el numero no es par".format(a))
-                
-      
+p=0
+
+for x in range(0,999999999999999999999999999999999999999999999999999999):
+    x=int(input("ingrese un numero"))
+
+    if x   % 2 == 0:
+           p = p + 1
+    else:
+        break
+print("el programa se detuvo por que el numero ingresado es impar \n y la cantidad de pares fueron: ",p) 
+       
+
+           
+       
+                     
+       
